@@ -25,3 +25,24 @@ Make sure you have the required R packages installed. You can install them using
 ## Usage
 - Run the R script ```financial_script.R``` in your R environment. You can do this by opening the script in RStudio or running it in the R console.
 - The script provides an example of fetching stock data for a specific symbol (AAPL for Apple Inc.). You can customize the script to fetch data for different stock symbols dynamically.
+
+**Copy code**
+#Example: Get stock data for a specific symbol (e.g., Apple Inc.)
+```get_stock_data("AAPL")```
+
+## Customization and Expansion
+
+**Feel free to customize and expand the project according to your needs:**
+
+- Allow dynamic input for stock symbols.
+- Enhance error handling and provide user-friendly messages.
+- Fetch historical stock prices and perform data analysis.
+- Create visualizations using ggplot2 or other plotting libraries.
+- Build a Shiny app for a more interactive experience.
+
+## License
+- This project is licensed under the MIT License.
+
+## Acknowledgments
+- Alpha Vantage for providing the API to access financial data.
+- The R community for the development of useful packages.
