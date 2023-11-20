@@ -14,3 +14,14 @@ Make sure you have the required R packages installed. You can install them using
    - ```install.packages("httr")```
 
    - ```install.packages("jsonlite")```
+
+## Configuration
+- Replace the placeholder ```YOUR_ALPHA_VANTAGE_API_KEY``` in the script with your actual Alpha Vantage API key.
+
+**Copy code**
+- Alpha Vantage API key (replace with your key)
+   - api_key <- "YOUR_ALPHA_VANTAGE_API_KEY"
+
+## Usage
+- Run the R script ```financial_script.R``` in your R environment. You can do this by opening the script in RStudio or running it in the R console.
+- The script provides an example of fetching stock data for a specific symbol (AAPL for Apple Inc.). You can customize the script to fetch data for different stock symbols dynamically.
